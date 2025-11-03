@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -16,7 +17,7 @@ export default function Hero() {
 
           {/* Social Icons */}
           <div className="flex justify-center items-center gap-6 mt-2">
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/_carlsu/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Image
                 src="/assets/images/instagram.png"
                 alt="Instagram"
@@ -25,7 +26,7 @@ export default function Hero() {
                 className="hover:opacity-70 transition"
               />
             </a>
-            <a href="#" aria-label="GitHub">
+            <a href="https://github.com/carlsu04?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Image
                 src="/assets/images/github.png"
                 alt="GitHub"
@@ -43,7 +44,7 @@ export default function Hero() {
                 className="hover:opacity-70 transition"
               />
             </a>
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com/carlaaron17" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Image
                 src="/assets/images/facebook.png"
                 alt="Facebook"
@@ -62,8 +63,8 @@ export default function Hero() {
 
           <div className="flex items-center gap-2 mt-1">
             {/* Contact Me Button */}
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="w-28 h-7 px-[5px] py-1 bg-white rounded-2xl outline outline-1 outline-[#d3d3d3] flex justify-center items-center gap-[5px] hover:bg-gray-50 transition"
             >
               <span className="text-black text-xs font-medium font-['Montserrat-MediumItalic']">Contact Me</span>
@@ -76,7 +77,7 @@ export default function Hero() {
                   className="object-contain"
                 />
               </div>
-            </a>
+            </Link>
 
             {/* Download CV Button */}
             <a
