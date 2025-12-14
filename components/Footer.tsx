@@ -8,8 +8,8 @@ export default function Footer() {
         {/* Row: links + title */}
         <div className="w-full max-w-[1140px] inline-flex items-center justify-between">
           <div className="flex items-center gap-[20px] ml-[35px]">
-            <a href="#" className="text-black text-[13px] italic font-medium">Facebook</a>
-            <a href="#" className="text-black text-[13px] italic font-medium">LinkedIn</a>
+            <a href="https://www.facebook.com/carlaaron17" target="_blank" rel="noopener noreferrer" className="text-black text-[13px] italic font-medium">Facebook</a>
+            <a href="" className="text-black text-[13px] italic font-medium">LinkedIn</a>
           </div>
           <div className="text-black text-[13px] font-medium text-center mr-[30px]">
             Garcia Carl Aaron - Software Dev

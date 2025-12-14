@@ -81,7 +81,7 @@ export default function Hero() {
 
             {/* Download CV Button */}
             <a
-              href="/assets/CV.pdf"
+              href="/assets/CV_Garcia.pdf"
               download
               className="w-28 h-7 px-[5px] py-1 bg-white/90 rounded-2xl outline outline-1 outline-black/60 flex justify-center items-center gap-[5px] hover:bg-gray-100 transition"
             >

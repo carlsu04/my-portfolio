@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Garcia Carl Aaron | Portfolio",
@@ -21,6 +22,7 @@ export default function RootLayout({
           <main className="px-8 md:px-16 py-10">{children}</main>
           <Footer />
         </div>
+        <ScrollToTop />
       </body>
     </html>
   );
